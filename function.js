@@ -1,11 +1,5 @@
-function myFunction(){
-    console.log("JavaScript Basics");
+const message = function() {  
+    console.log("This message is shown after 3 seconds");
 }
-myFunction();
-
-var abc = function (p1, p2) {
-
-    console.log(p1 + p2)
-}
-
-abc(3, 3)
+ 
+setTimeout(message, 3000);
